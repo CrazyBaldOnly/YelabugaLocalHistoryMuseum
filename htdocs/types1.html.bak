@@ -1,0 +1,9 @@
+<form action="" method="post">
+<meta charset="utf-8">
+<input id="types" name="addtypes" type="text" placeholder="Введите тип документа...">
+	<div class="buttons">
+		<input type="button" name="add" value="Добавить тип"></input>
+		<input type="button" name="change" value="Найти тип"></input>
+		<input type="button" name="delete" value="Удалить тип"></input>
+	</div>
+</form>

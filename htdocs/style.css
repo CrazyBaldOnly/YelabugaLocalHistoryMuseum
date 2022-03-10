@@ -1,0 +1,106 @@
+
+.logo {
+	position:relative;
+	top:20%;
+}
+#search1 {
+  width: 40%;
+  height: 40px;
+  font-size: 18px;
+  color: #212121;
+  margin-top:5%;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  padding-left: 10px;
+  
+}
+#searchtags {
+	margin-top: 1%;
+	width: 40%;
+	height: 40px;
+	border: 1px solid #000000;
+	border-radius: 4px;
+	color: #212121;
+	font-size: 18px;
+	padding-left: 10px;
+}
+.d3 {
+	margin-top: 2%;
+	font-size: 18px;
+	color:#212121;
+}
+.d3 label{
+	font-style: Times;
+	color:#757575;
+}
+.d3 select {
+    display: block;
+    width: 20%;
+	height: 30px;
+    padding: 4px 4px 4px 10px;
+    border: 1px solid #000000; 
+    border-radius: 4px;
+    appearance: none;
+    font-family: inherit;
+    font-size: 18px;
+    color: #000000;
+	margin-top: 0.5%;
+}
+.d3 option {
+	color: #000000;
+}
+::placeholder {
+	font-style: Times;
+	color: #757575;
+}
+.docsdate{
+	margin-top: 2%;
+	font-size: 18px;
+	color:#212121;
+}
+.docsdate label {
+	font-style: Times;
+	color:#757575;
+}
+.docsdate input{
+    width: 20%;
+	height: 20px;
+    padding: 4px 4px 4px 10px;
+    border: 1px solid #000000; 
+    border-radius: 4px;
+    appearance: none;
+    font-family: inherit;
+    font-size: 18px;
+    color: #000000;
+
+}
+.docsdate p{
+	color: #757575;
+	margin-bottom:0.5%;
+}
+.buttons input[type=button], input[type=submit], input[type=reset] {
+	background-color: #04AA6D;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+input[type=file] {
+	visibility: hidden;
+}
+
+#truesend{
+	background-color: #04AA6D;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+/* .clearfix {
+	visibility: hidden;
+} */
